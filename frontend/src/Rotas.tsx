@@ -13,7 +13,7 @@ const Rotas = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/dasboard" element={<Dasboard />} />
+                <Route path="/dashboard" element={<Dasboard />} />
             </Routes>
         </BrowserRouter>
     );
